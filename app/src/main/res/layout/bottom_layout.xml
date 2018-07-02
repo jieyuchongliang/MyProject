@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="3dp">
+
+        <ImageView
+            android:id="@+id/iv_bottom_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_home" />
+
+        <TextView
+            android:id="@+id/tv_bottom_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="首页"
+            android:textColor="@color/primarybar_txt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="3dp">
+
+        <ImageView
+            android:id="@+id/iv_bottom_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_search" />
+
+        <TextView
+            android:id="@+id/tv_bottom_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="会员服务"
+            android:textColor="@color/primarybar_txt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_mall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="3dp">
+
+        <ImageView
+            android:id="@+id/iv_bottom_mall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_mall" />
+
+        <TextView
+            android:id="@+id/tv_bottom_mall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="离线缓存"
+            android:textColor="@color/primarybar_txt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_me"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="3dp">
+
+        <ImageView
+            android:id="@+id/iv_bottom_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_me" />
+
+        <TextView
+            android:id="@+id/tv_bottom_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="个人中心"
+            android:textColor="@color/primarybar_txt" />
+    </LinearLayout>
+
+
+</LinearLayout>
